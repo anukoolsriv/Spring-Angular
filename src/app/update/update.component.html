@@ -1,0 +1,6 @@
+<form [formGroup]="updateForm" (ngSubmit)="updateStudent()">
+    Enter Roll Number<input type="text" name="rollNumber" formControlName="rollNumber">
+    <br/> Enter StudentName<input type="text" name="studentName" formControlName="studentName">
+    <br/> Enter StudentScore<input type="text" name="studentScore" formControlName="studentScore">
+    <br/> <button>Update</button>
+</form>

@@ -1,0 +1,6 @@
+<form [formGroup]="addForm" (ngSubmit)="addStudent()">
+    Enter Roll Number<input type="text" formControlName="rollNumber" name="rollNumber" />
+    <br/> Enter your Name<input type="text" formControlName="studentName" name="studentName" />
+    <br/> Enter your Score<input type="text" formControlName="studentScore" name="studentScore" />
+    <button>Submit</button>
+</form>

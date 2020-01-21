@@ -1,0 +1,10 @@
+<div>
+    Enter Roll Number<input type="text" name="rollNumber" [(ngModel)]="rollNumber" />
+    <button (click)="findStudent()">Find Student</button>
+</div>
+
+<div *ngIf="result">
+    Roll Number: {{result.rollNumber}}
+    <br> Student Name: {{result.studentName}}
+    <br> Student Score {{result.studentScore}}
+</div>
